@@ -7,6 +7,8 @@ format:
 	black *.py mylib/*.py
 lint:
 	#flake8 or #pylint
+build:
+	#build container
 test:
 	#test
 deploy:
