@@ -7,7 +7,7 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
 2. Fetch description by entering full keyword
 
 ## Usage
-- To run loacally:
+### To run loacally:
     
     Type in `make install` in the terminal.This will install all the packages needed.
     
@@ -16,7 +16,7 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
     To get description of "Benedict Cumberbatch": `./cli-fire.py wiki "Benedict Cumberbatch"`
     
     
-- To run on the server:
+### To run on the server:
     
     Type in `make all` in the terminal.
     
@@ -24,7 +24,8 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
     
     Open it in a web brower and you can see a simple message:
     `{"message":"Hi, this is a wikipedia API. Call /search or /fetch"}`
-    ### Search
+   
+   - Search
     
     Here is an example for searching for entries:
     ```
@@ -35,8 +36,8 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
     ```
     {"Entries":["Benedict","Pope Benedict XVI","Benedict Cumberbatch","Dirk Benedict","Benedict Wong","Pope Benedict","Benedict Arnold","Eggs     Benedict","Paul Benedict","Benedict of Nursia"]}
     ```
-    
-    ### Fetch
+    - Fetch
+
     Here is an example for fetching descriptions:
     ```
     https://sherry-ma-didactic-sniffle-5r4jpr95799fxpj-8080.preview.app.github.dev/fetch/Benedict%20Cumberbatch
@@ -45,7 +46,7 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
     ```
   {"Result":"Benedict Timothy Carlton Cumberbatch  (born 19 July 1976) is an English actor."}
     ```
-    - To run the microservice on AWS APP Runner, go to
+### To run the microservice on AWS APP Runner, go to
     
     https://v6xr4krcmd.us-east-1.awsapprunner.com 
 
