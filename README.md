@@ -45,6 +45,9 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
     ```
   {"Result":"Benedict Timothy Carlton Cumberbatch  (born 19 July 1976) is an English actor."}
     ```
+    - To run the microservice on AWS APP Runner, go to
+    
+    https://v6xr4krcmd.us-east-1.awsapprunner.com 
 
 
 
