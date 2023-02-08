@@ -1,8 +1,42 @@
 # Wikipiedia-Fetcher-with-FastAPI-and-AWS-App-Runner
 
-1. Create a python virtual environment 'python3 -m venv ~/.venv' or 'virtualenv ~/.venv'
-2. Create files
-3. Populate Makefile
+## Overview
+
+This is a microservice that fetches Wikipedia entries. This allows you to:
+1. Search for existing entries by providing partial keyword
+2. Fetch description by entering full keyword
+
+## Usage
+- To run loacally:
+    type in `make install` in the terminal.
+    
+- To run on the server:
+    type in `make all` in the terminal.
+    This will install all the packages needed and run it on port 8080
+    
+    open it in a web brower and you can see a simple message:
+    `{"message":"Hi, this is a wikipedia API. Call /search or /fetch"}`
+    
+    Here is an example for searching for entries:
+    ```
+    https://sherry-ma-didactic-sniffle-5r4jpr95799fxpj-8080.preview.app.github.dev/search/benedict
+    ```
+    And the output will be:
+    ```
+    {"Entries":["Benedict","Pope Benedict XVI","Benedict Cumberbatch","Dirk Benedict","Benedict Wong","Pope Benedict","Benedict Arnold","Eggs     Benedict","Paul Benedict","Benedict of Nursia"]}
+    ```
+    
+    
+    Here is an example for fetching descriptions:
+    ```
+    https://sherry-ma-didactic-sniffle-5r4jpr95799fxpj-8080.preview.app.github.dev/fetch/Benedict%20Cumberbatch
+    ```
+    And the output will be:
+    ```
+  {"Result":"Benedict Timothy Carlton Cumberbatch  (born 19 July 1976) is an English actor."}
+    ```
+
+
 
 
 ## Reference
