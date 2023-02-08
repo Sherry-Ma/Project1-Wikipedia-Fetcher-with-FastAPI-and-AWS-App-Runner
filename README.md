@@ -7,7 +7,7 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
 2. Fetch description by entering full keyword
 
 ## Usage
-### To run loacally:
+- To run loacally:
     
     Type in `make install` in the terminal.This will install all the packages needed.
     
@@ -50,6 +50,7 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
 ### To run the microservice on AWS APP Runner, go to
     
     https://v6xr4krcmd.us-east-1.awsapprunner.com 
+
 
 
 
