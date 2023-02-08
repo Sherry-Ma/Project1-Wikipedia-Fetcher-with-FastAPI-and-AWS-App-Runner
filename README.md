@@ -27,12 +27,14 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
     ### Search
     
     Here is an example for searching for entries:
-    
-    `https://sherry-ma-didactic-sniffle-5r4jpr95799fxpj-8080.preview.app.github.dev/search/benedict`
+    ```
+    https://sherry-ma-didactic-sniffle-5r4jpr95799fxpj-8080.preview.app.github.dev/search/benedict
+    ```
     
     And the output will be:
-
-    `{"Entries":["Benedict","Pope Benedict XVI","Benedict Cumberbatch","Dirk Benedict","Benedict Wong","Pope Benedict","Benedict Arnold","Eggs     Benedict","Paul Benedict","Benedict of Nursia"]}`
+    ```
+    {"Entries":["Benedict","Pope Benedict XVI","Benedict Cumberbatch","Dirk Benedict","Benedict Wong","Pope Benedict","Benedict Arnold","Eggs     Benedict","Paul Benedict","Benedict of Nursia"]}
+    ```
     
     ### Fetch
     Here is an example for fetching descriptions:
