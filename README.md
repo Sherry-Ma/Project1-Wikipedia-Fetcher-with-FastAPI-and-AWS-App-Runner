@@ -36,7 +36,7 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
     ```
     {"Entries":["Benedict","Pope Benedict XVI","Benedict Cumberbatch","Dirk Benedict","Benedict Wong","Pope Benedict","Benedict Arnold","Eggs     Benedict","Paul Benedict","Benedict of Nursia"]}
     ```
-    - Fetch
+   - Fetch
 
     Here is an example for fetching descriptions:
     ```
@@ -46,6 +46,7 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
     ```
   {"Result":"Benedict Timothy Carlton Cumberbatch  (born 19 July 1976) is an English actor."}
     ```
+    
 ### To run the microservice on AWS APP Runner, go to
     
     https://v6xr4krcmd.us-east-1.awsapprunner.com 
