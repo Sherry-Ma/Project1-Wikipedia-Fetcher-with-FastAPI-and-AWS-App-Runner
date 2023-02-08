@@ -53,7 +53,6 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
 
 
 
-
 ## Reference
 
 https://fastapi.tiangolo.com/
