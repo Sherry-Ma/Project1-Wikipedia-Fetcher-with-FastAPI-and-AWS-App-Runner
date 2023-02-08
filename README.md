@@ -16,7 +16,7 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
     To get description of "Benedict Cumberbatch": `./cli-fire.py wiki "Benedict Cumberbatch"`
     
     
-### To run on the server:
+- To run on the server:
     
     Type in `make all` in the terminal.
     
@@ -47,7 +47,7 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
         {"Result":"Benedict Timothy Carlton Cumberbatch  (born 19 July 1976) is an English actor."}
         ```
 
-### To run the microservice on AWS APP Runner, go to
+- To run the microservice on AWS APP Runner, go to
     
     https://v6xr4krcmd.us-east-1.awsapprunner.com 
 
