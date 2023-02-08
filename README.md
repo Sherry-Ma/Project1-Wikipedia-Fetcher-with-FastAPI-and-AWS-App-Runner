@@ -1,4 +1,4 @@
-# Wikipiedia-Fetcher-with-FastAPI-and-AWS-App-Runner
+# Wikipedia-Fetcher-with-FastAPI-and-AWS-App-Runner
 
 ## Overview
 
