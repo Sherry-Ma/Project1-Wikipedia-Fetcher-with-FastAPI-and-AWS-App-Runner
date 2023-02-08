@@ -9,19 +9,22 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
 ## Usage
 - To run loacally:
     
-    type in `make install` in the terminal.
-    This will install all the packages needed.
+    Type in `make install` in the terminal.This will install all the packages needed.
+    
     To search for word "Benedict": `./cli-fire.py search_wiki "Benedict"`
+    
     To get description of "Benedict Cumberbatch": `./cli-fire.py wiki "Benedict Cumberbatch"`
     
     
 - To run on the server:
     
-    type in `make all` in the terminal.
+    Type in `make all` in the terminal.
+    
     This will install all the packages needed and run it on port 8080.
     
-    open it in a web brower and you can see a simple message:
+    Open it in a web brower and you can see a simple message:
     `{"message":"Hi, this is a wikipedia API. Call /search or /fetch"}`
+    ### Search
     
     Here is an example for searching for entries:
     ```
@@ -32,7 +35,7 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
     {"Entries":["Benedict","Pope Benedict XVI","Benedict Cumberbatch","Dirk Benedict","Benedict Wong","Pope Benedict","Benedict Arnold","Eggs     Benedict","Paul Benedict","Benedict of Nursia"]}
     ```
     
-    
+    ### Fetch
     Here is an example for fetching descriptions:
     ```
     https://sherry-ma-didactic-sniffle-5r4jpr95799fxpj-8080.preview.app.github.dev/fetch/Benedict%20Cumberbatch
