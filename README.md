@@ -8,11 +8,17 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
 
 ## Usage
 - To run loacally:
+    
     type in `make install` in the terminal.
+    This will install all the packages needed.
+    To search for word "Benedict": `./cli-fire.py search_wiki "Benedict"`
+    To get description of "Benedict Cumberbatch": `./cli-fire.py wiki "Benedict Cumberbatch"`
+    
     
 - To run on the server:
+    
     type in `make all` in the terminal.
-    This will install all the packages needed and run it on port 8080
+    This will install all the packages needed and run it on port 8080.
     
     open it in a web brower and you can see a simple message:
     `{"message":"Hi, this is a wikipedia API. Call /search or /fetch"}`
