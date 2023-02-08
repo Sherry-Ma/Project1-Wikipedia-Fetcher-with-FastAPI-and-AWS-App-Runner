@@ -39,14 +39,14 @@ This is a microservice that fetches Wikipedia entries. This allows you to:
    - Fetch
 
     Here is an example for fetching descriptions:
-    ```
-    https://sherry-ma-didactic-sniffle-5r4jpr95799fxpj-8080.preview.app.github.dev/fetch/Benedict%20Cumberbatch
-    ```
+        ```
+        https://sherry-ma-didactic-sniffle-5r4jpr95799fxpj-8080.preview.app.github.dev/fetch/Benedict%20Cumberbatch
+        ```
     And the output will be:
-    ```
-  {"Result":"Benedict Timothy Carlton Cumberbatch  (born 19 July 1976) is an English actor."}
-    ```
-    
+        ```
+        {"Result":"Benedict Timothy Carlton Cumberbatch  (born 19 July 1976) is an English actor."}
+        ```
+
 ### To run the microservice on AWS APP Runner, go to
     
     https://v6xr4krcmd.us-east-1.awsapprunner.com 
